@@ -1,0 +1,45 @@
+body {
+    margin: 60px 110px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+table {
+    border: solid 2px rgb(216, 213, 213);
+    width: 100%;
+    border-radius: 3px;
+    border-spacing: unset;
+}
+
+td {
+    border: solid 1px rgb(216, 213, 213);
+    height: 20px;
+    padding: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    border-color: rgb(216, 213, 213);
+    border: solid 1px rgb(216, 213, 213);
+    border-radius: 3px ;
+}
+
+.button {
+    background-color: rgb(68, 192, 241);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+input:focus, textarea:focus {
+    border-color: skyblue;
+}
+
+*:focus {
+    outline: none;
+}
+
+.line {
+    border-bottom: solid 1px rgb(216, 213, 213);
+    margin: 15px;
+}
+
